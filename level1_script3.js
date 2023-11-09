@@ -44,12 +44,12 @@ function clearResult() {
     previousInput = '';
     updateDisplay();
 }
-function clearResult(){
-    currentInput = '';
-    operator = '';
-    previousInput = '';
-    updateDisplay();
-}
+// function clearResult(){
+//     currentInput = '';
+//     operator = '';
+//     previousInput = '';
+//     updateDisplay();
+// }
 
 function updateDisplay() {
     document.getElementById('result').value = currentInput;
