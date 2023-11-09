@@ -32,6 +32,16 @@ input[type="text"] {
     background-color: #fff;
     color: #000; 
 }
+/* input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    text-align: right;
+    background-color: #fff;
+    color:#000 */
+}
 
 .buttons {
     display: grid;
