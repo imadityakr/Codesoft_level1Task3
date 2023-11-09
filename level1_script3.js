@@ -50,6 +50,7 @@ function clearResult() {
 //     previousInput = '';
 //     updateDisplay();
 // }
+//
 
 function updateDisplay() {
     document.getElementById('result').value = currentInput;
