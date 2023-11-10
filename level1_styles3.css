@@ -36,6 +36,10 @@ input[type="text"] {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+/* .buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+} */
 
 button {
     border: none;
