@@ -37,6 +37,12 @@ function calculateResult() {
     operator = '';
     updateDisplay();
 }
+// void updateDisplay(){
+//     document.getElementById('display').value=currentInput;
+// }
+// document.addEventListener("keydown", function(event){
+//   var key = event.which || event.keyCode;
+// }
 
 function clearResult() {
     currentInput = '';
