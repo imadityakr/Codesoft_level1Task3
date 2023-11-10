@@ -8,7 +8,6 @@ body {
     height: 100vh;
     margin: 0;
 }
-
 .calculator {
     background-color: #fff;
     border-radius: 10px;
@@ -16,12 +15,10 @@ body {
     width: 300px;
     color: #f9f5f5;
 }
-
 .display {
     text-align: right;
     padding: 10px;
 }
-
 input[type="text"] {
     width: 100%;
     padding: 10px;
@@ -45,28 +42,22 @@ button {
     transition: background 0.2s, color 0.2s;
     color: #000;
 }
-
 button:hover {
     background: #b83333;
 }
-
 .operator {
     background: #6722fd;
     color: #fff;
 }
-
 .number {
     background: #9188f6;
 }
-
 button:active {
     background: #fff;
 }
-
 .button {
     background: #888;
 }
-
 button:active {
     background: #ddd;
 }
