@@ -37,23 +37,23 @@ function calculateResult() {
     operator = '';
     updateDisplay();
 }
-function calculateResult() {
-    let result;
-    switch (operator){
-        case'+':
-        result= parseFloat(previousInput) + parseFloat(currentInput);
-        break;
-        case'-':
-        result=parseFloat(previousInput) - parseFloat(currentInput);
-        break;
-        case'*':
-        result = parseFloat(previousInput) * parseFloat(currentInput);
-        break;
-        case'/': 
-        result = parseFloat(previousInput) / parseFloat(currentInput);
-        break;
-    }
-}
+// function calculateResult() {
+//     let result;
+//     switch (operator){
+//         case'+':
+//         result= parseFloat(previousInput) + parseFloat(currentInput);
+//         break;
+//         case'-':
+//         result=parseFloat(previousInput) - parseFloat(currentInput);
+//         break;
+//         case'*':
+//         result = parseFloat(previousInput) * parseFloat(currentInput);
+//         break;
+//         case'/': 
+//         result = parseFloat(previousInput) / parseFloat(currentInput);
+//         break;
+//     }
+// }
 
 function clearResult() {
     currentInput = '';
